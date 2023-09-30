@@ -1,0 +1,26 @@
+import { Html, Head, Main, NextScript } from "next/document";
+
+export default function Document() {
+	return (
+		<Html lang="en">
+			<Head />
+			{/* Template Google Fonts */}
+			<link rel="preconnect" href="https://fonts.googleapis.com" />
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+			<link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+			<link rel="shortcut icon" type="image/jpg" href="/eafavicon.jpg" />
+			<link rel="stylesheet" href="css/devicon.min.css" />
+			<link rel="stylesheet" href="css/all.min.css" />
+			<link rel="stylesheet" href="css/bootstrap.min.css" />
+			<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+			<link rel="stylesheet" href="css/animate.min.css" />
+			<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" type="text/css" href="css/yellow.css" />
+			<body>
+				<Main />
+				<NextScript />
+			</body>
+		</Html>
+	);
+}
